@@ -1,0 +1,222 @@
+
+@import url('/statics/fonts/A-Iranian-Sans/iransans-fonts.css');
+
+
+html {
+    font-size: 100%;
+    font-family: IRANSansX;
+}
+
+button{
+    font-family: inherit !important;
+}
+
+
+body {
+    /* background-color: red;
+    font-family: 'IRANSansX', Tahoma, sans-serif;
+    margin: 0; */
+}
+/* html {
+    font-size: 15px;
+    font-family: IRANSansX;
+} */
+
+/* Base container styling */
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12%;
+    padding-left: 12%;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1440px; /* Increased width for larger screens */
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1640px; /* Increased width for larger screens */
+    }
+}
+.navbar {
+    /* height: 75px; */
+    /* max-width: 1440px; */
+    height: 5.5rem;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    /* box-shadow: 0px 10px 1px rgba(0,0,0,.2); */
+}
+
+.navbar__section {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.navbar__links {
+    display: flex;
+    /* font-weight: 100; */
+}
+
+.navbar__links li {
+    margin-right: 2.2rem;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+
+.navbar__section .navbar__logo{
+    margin-left: 1rem;
+}
+
+
+.hero-section{
+    display: flex;
+}
+
+
+
+.hero-section__intro{
+    background-color: #21aa58;
+    color: white;
+    width: 50%;
+    padding: 2rem;
+    padding-right: 15%;
+}
+
+.hero-section__intro_tagline{
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-section__intro_description{
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.hero-section__intro_sendlink{
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section__intro_sendlink > button{
+    border: none;
+    border-radius: 0.375rem;
+    color: #21aa58;
+    font-family: inherit !important;
+    padding: 0 1rem;
+    flex: 0 0 24%;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.hero-section__intro_sendlink_input input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    line-height: 3rem;
+    padding: 0 0.5rem;
+    height: 2.5rem;
+    width: 100%;
+}
+
+.hero-section__intro_sendlink_input input::placeholder{
+    color: rgba(255, 255, 255, 0.74);
+}
+
+
+.hero-section__intro_sendlink_input{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    flex: 0 0 50%;
+}
+
+
+.hero-section__intro_sendlink_input .input__dot{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 99999999px;
+    background-color: white;
+    margin-left: 0.5rem;
+}
+
+.hero-section__intro_gotowebapp{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    cursor: pointer;
+    border-radius: 0.325rem;
+    height: 3rem;
+    padding: 0 1.5rem;
+}
+
+.hero-section__intro_gotowebapp:hover{
+    background-color: rgba(255,255,255,.1);
+}
+
+.hero-section__pic{
+    background-image:url("./statics/images/intro_desktop.jpg");
+    min-height: 40vh;
+    width: 50%;
+    background-position: center center;
+    background-size: cover;
+    transform: scaleX(-1);
+    flex: 0 0 50%;
+}
+
+
+
+
