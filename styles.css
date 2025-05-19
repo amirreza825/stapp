@@ -12,17 +12,17 @@ button{
 }
 
 
-body {
-    /* background-color: red;
-    font-family: 'IRANSansX', Tahoma, sans-serif;
-    margin: 0; */
-}
-/* html {
-    font-size: 15px;
-    font-family: IRANSansX;
-} */
-
-/* Base container styling */
+/* body { */
+    /* /* background-color: red; */
+    /* font-family: 'IRANSansX', Tahoma, sans-serif; */
+    /* margin: 0; */ */
+/* } */
+/* /* html { */
+    /* font-size: 15px; */
+    /* font-family: IRANSansX; */
+/* } */ */
+/*  */
+Base container styling
 .container {
     max-width: 1440px;
     width: 100%;
@@ -215,6 +215,17 @@ body {
     background-size: cover;
     transform: scaleX(-1);
     flex: 0 0 50%;
+}
+
+
+.snapp-apps-link{
+    min-height: 30vh;
+    content-visibility: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8rem;
 }
 
 
