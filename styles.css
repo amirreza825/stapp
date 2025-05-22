@@ -225,9 +225,68 @@ Base container styling
     grid-template-columns: auto auto auto auto auto;
     align-items: center;
     justify-content: space-around;
-    padding: 0 8rem;
+    padding: 0 2rem;
 }
 
 
+
+
+/* intro-of-snapp-apps */
+
+.intro-of-snapp-apps{
+    background-color: #f2f5f8;
+    color: #444;
+}
+
+
+.intro-of-snapp-apps-title{
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    padding: 2.5rem 0;
+    text-align: center;
+    color: inherit;
+}
+
+
+.intro-of-snapp-apps-item{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 1.125rem;
+    align-items: center;
+    padding: 0.5rem;
+    
+}
+
+.intro-of-snapp-apps-items > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.intro-of-snapp-apps-item-info > h3{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.intro-of-snapp-apps-item-info{
+    margin-right: 0.5rem;
+    padding: 1rem 0;
+}
+
+.intro-of-snapp-apps-item-info > p{
+    font-size: 0.875rem;
+    color: #a3a3a3;
+}
+
+
+.intro-of-snapp-apps-items{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(8,1fr);
+    gap: 2rem;
+    padding: 2rem 7rem;
+
+}
 
 
