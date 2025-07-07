@@ -5,9 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>snapp</title>
+    <link
+      rel="stylesheet"
+      href="statics/css/keen-slider.min.css"
+    />
     <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/iransans-fonts.css">
+
 
 </head>
 
@@ -17,6 +22,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="navbar__section">
+                <img alt="" src="statics/images/menu_black_24dp.svg" size="24" class=" " loading="eager">
                 <div class="navbar__logo">
 
                     <img src="/statics/images/snappTextLogo.svg" alt="snapp logo">
@@ -139,6 +145,10 @@
 
             <a href="#">
                 <button class="hero-section__intro_gotowebapp">ورود به وب اپلیکیشن اسنپ</button>
+            </a>
+
+            <a href="#">
+                <button class="hero-section__intro_downloadapp">دانلود اپلیکیشن اسنپ</button>
             </a>
 
 
@@ -539,6 +549,62 @@
         </div>
 
 
+        <div class="snapp-slider-section">            
+            
+            <div class="container">
+
+                <div class="snapp-slider-wrapper">
+
+                    <div id="snapp-slider" ref="container" class="keen-slider">
+
+                        <div class="keen-slider__slide">
+                            <a href="#">
+
+                                <img src="/statics/images/Market.jpg">
+
+                            </a>
+                        </div>
+
+
+                        <div class="keen-slider__slide">
+                            <a href="#">
+
+                                <img src="/statics/images/Food.jpg">
+                                
+                            </a>
+                        </div>
+
+
+                        <div class="keen-slider__slide">
+                            <a href="#">
+
+                                <img src="/statics/images/Driver.jpg">
+                                
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="keen-dots-wrapper">
+
+                        <div class="keen-dots">
+                            <button type="button" id="fortest" class="dot-active"></button>
+                            <button type="button" class="dot"></button>
+                            <button type="button" class="dot"></button>
+                        </div>
+
+                    
+                    </div>    
+
+
+                </div>
+
+            </div>
+        
+        </div>
+
+
 
         <div class="snapp-for-all-need">
 
@@ -602,7 +668,7 @@
 
                     </div>
 
-
+                    
 
                     <div class="driver-registration">
 
@@ -951,6 +1017,12 @@
 
     </div>
 
+    <script src="statics/js/keen-slider.js"></script>
+
+    <script>
+        var slider = new KeenSlider("#snapp-slider")
+    </script>
+       
 
 </body>
 
